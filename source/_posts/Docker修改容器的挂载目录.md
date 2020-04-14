@@ -15,6 +15,7 @@ $ systemctl stop docker.service
 2. 修改下两个配置文件中的目录位置，然后保存退出
 ```bash
 $ vim /var/lib/docker/containers/${containerId}/config.v2.json
+
 $ vim /var/lib/docker/containers/${containerId}/hostconfig.json
 ```
 3. 启动 Docker 服务
