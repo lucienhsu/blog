@@ -3,72 +3,72 @@ version: 3.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /images/logo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /images/favicon.ico
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: 
+        url:
         # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: 
+        image:
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author:
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 
+        description:
         # Twitter card type (twitter:card)
-        twitter_card: 
+        twitter_card:
         # Twitter ID (twitter:creator)
-        twitter_id: 
+        twitter_id:
         # Twitter ID (twitter:creator)
-        twitter_site: 
+        twitter_site:
         # Google+ profile link (deprecated)
-        google_plus: 
+        google_plus:
         # Facebook admin ID
-        fb_admins: 
+        fb_admins:
         # Facebook App ID
-        fb_app_id: 
+        fb_app_id:
     # Structured data of the page
     # https://developers.google.com/search/docs/guides/intro-structured-data
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: 
+        description:
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: 
+        url:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author:
         # Page images (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: 
+        image:
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: 
+    rss:
 # Page top navigation bar configurations
 navbar:
     # Naviagtion menu items
@@ -177,24 +177,24 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Lucien
         # Author title
-        author_title: Your title
+        author_title: 万年拖更
         # Author's current location
-        location: Your location
+        location: 127.0.0.1
         # URL or path to the avatar image
-        avatar: 
+        avatar: /images/me.png
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
-        gravatar: 
+        gravatar:
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/lucienhsu'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+                url: 'https://github.com/lucienhsu'
             Facebook:
                 icon: fab fa-facebook
                 url: 'https://facebook.com'
@@ -247,18 +247,18 @@ widgets:
         position: left
         type: subscribe_email
         # Hint text under the email input
-        description: 
+        description:
         # Feedburner ID
         feedburner_id: ''
     # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: adsense
+#        # AdSense client ID
+#        client_id: ''
+#        # AdSense AD unit ID
+#        slot_id: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -270,7 +270,7 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id:
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
     busuanzi: false
@@ -278,9 +278,9 @@ plugins:
     # https://www.umeng.com/web
     cnzz:
         # CNZZ tracker id
-        id: 
+        id:
         # CNZZ website id
-        web_id: 
+        web_id:
     # Enable the lightGallery and Justified Gallery plugins
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
     gallery: true
@@ -288,12 +288,12 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id:
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
         # Hotjar site id
-        site_id: 
+        site_id:
     # Enable the KaTeX math typesetting supprot
     # https://katex.org/
     katex: false
