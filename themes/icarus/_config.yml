@@ -82,7 +82,10 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/lucienhsu'
+#        RSS:
+#            icon: fas fa-rss
+#            url: /
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -95,7 +98,7 @@ footer:
             url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/lucienhsu'
 # Article related configurations
 article:
     # Code highlight settings
@@ -188,25 +191,26 @@ widgets:
         avatar_rounded: true
         # Email address for the Gravatar
         gravatar:
-        # URL or path for the follow button
-        follow_link: 'https://github.com/lucienhsu'
+        # URL or path for the follow button  订阅
+        follow_link: /
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/lucienhsu'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+#            Github:
+#                icon: fab fa-github
+#                url: 'https://github.com/lucienhsu'
+#            Facebook:
+#                icon: fab fa-facebook
+#                url: 'https://facebook.com'
+#            Twitter:
+#                icon: fab fa-twitter
+#                url: 'https://twitter.com'
+#            Dribbble:
+#                icon: fab fa-dribbble
+#                url: 'https://dribbble.com'
+#            Icarus: https://github.com/ppoffice/hexo-theme-icarus
+#            RSS:
+#                icon: fas fa-rss
+#                url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
