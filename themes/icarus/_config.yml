@@ -131,46 +131,46 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: ''
+        qrcode: /images/alipay.png
     # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
+#    -
+#        type: buymeacoffee
         # URL to the "Buy me a coffee" page
-        url: ''
+#        url: ''
     # Patreon donate button configurations
-    -
-        type: patreon
+#    -
+#        type: patreon
         # URL to the Patreon page
-        url: ''
+#        url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
+#    -
+#        type: paypal
         # Paypal business ID or email address
-        business: ''
+#        business: ''
         # Currency code
-        currency_code: USD
+#        currency_code: USD
     # Wechat donate button configurations
     -
         type: wechat
         # Wechat qrcode image URL
-        qrcode: ''
+        qrcode: /images/wechat.png
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
+#share:
+#    type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: ''
+#    install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -277,7 +277,7 @@ plugins:
         tracking_id:
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
@@ -306,7 +306,7 @@ plugins:
     mathjax: false
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
-    outdated_browser: false
+    outdated_browser: true
     # Show a progress bar at top of the page on page loading
     progressbar: true
 # CDN provider settings
