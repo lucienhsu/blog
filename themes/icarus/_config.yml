@@ -68,7 +68,7 @@ head:
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss:
+    rss: /atom.xml
 # Page top navigation bar configurations
 navbar:
     # Naviagtion menu items
@@ -83,9 +83,9 @@ navbar:
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/lucienhsu'
-#        RSS:
-#            icon: fas fa-rss
-#            url: /
+        RSS:
+            icon: fas fa-rss
+            url: /atom.xml
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -206,7 +206,7 @@ widgets:
         # Email address for the Gravatar
         gravatar:
         # URL or path for the follow button  订阅
-        follow_link: /
+        follow_link: /atom.xml
         # Links to be shown on the bottom of the profile widget
         social_links:
 #            Github:
