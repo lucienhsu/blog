@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lucien&#39;s Notes</title>
+  <icon>http://lucienhsu.github.io/blog/icon.png</icon>
+  <subtitle>朝花夕拾，海纳百川</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="http://lucienhsu.github.io/blog/"/>
+  <updated>2020-04-19T15:15:41.168Z</updated>
+  <id>http://lucienhsu.github.io/blog/</id>
+  
+  <author>
+    <name>Lucien</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OpenWrt 开启 sftp</title>
+    <link href="http://lucienhsu.github.io/blog/2020/04/14/OpenWrt%E5%BC%80%E5%90%AFsftp/"/>
+    <id>http://lucienhsu.github.io/blog/2020/04/14/OpenWrt%E5%BC%80%E5%90%AFsftp/</id>
+    <published>2020-04-14T15:04:57.000Z</published>
+    <updated>2020-04-19T15:15:41.168Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;执行一下指令：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://lucienhsu.github.io/blog/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="OpenWrt" scheme="http://lucienhsu.github.io/blog/categories/%E6%8A%80%E6%9C%AF/OpenWrt/"/>
+    
+    
+      <category term="OpenWrt" scheme="http://lucienhsu.github.io/blog/tags/OpenWrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker 修改容器的挂载目录</title>
+    <link href="http://lucienhsu.github.io/blog/2020/04/14/Docker%E4%BF%AE%E6%94%B9%E5%AE%B9%E5%99%A8%E7%9A%84%E6%8C%82%E8%BD%BD%E7%9B%AE%E5%BD%95/"/>
+    <id>http://lucienhsu.github.io/blog/2020/04/14/Docker%E4%BF%AE%E6%94%B9%E5%AE%B9%E5%99%A8%E7%9A%84%E6%8C%82%E8%BD%BD%E7%9B%AE%E5%BD%95/</id>
+    <published>2020-04-14T14:23:41.000Z</published>
+    <updated>2020-04-19T15:15:41.168Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;起因是公司开发环境服务器空间被 Mysql 撑爆，于是想换到同一台服务另外一个空间有余的挂载目录上。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;停止 Docker 服务：&lt;code&gt;关键，修改之前必须停止 Docker 服务&lt;/code&gt;&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://lucienhsu.github.io/blog/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Docker" scheme="http://lucienhsu.github.io/blog/categories/%E6%8A%80%E6%9C%AF/Docker/"/>
+    
+    
+      <category term="Docker" scheme="http://lucienhsu.github.io/blog/tags/Docker/"/>
+    
+  </entry>
+  
+</feed>
