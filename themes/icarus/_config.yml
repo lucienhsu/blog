@@ -265,7 +265,7 @@ widgets:
         position: left
         type: subscribe_email
         # Hint text under the email input
-        description: 邮件订阅，更新早知道
+        description:
         # Feedburner ID
         feedburner_id: LuciensNotes
     # Google AdSense unit configurations
